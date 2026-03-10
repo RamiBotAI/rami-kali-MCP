@@ -1,0 +1,18 @@
+# Force LF for shell scripts and Docker (Linux container)
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Binaries — no line ending conversion
+*.jar binary
+*.gz binary
+*.zip binary
+*.png binary
+*.jpg binary
+
+# Default normalization
+* text=auto
